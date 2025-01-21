@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/image/Profile.jpg" type="image/x-icon">
+    <title>paul fesama</title>
+</head>
+<body>
+     <!-- Navigation Bar -->
+     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#home" onclick="closeMenu()">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#skills" onclick="closeMenu()">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#about" onclick="closeMenu()">About</a>
+                </li>
+            </ul>
+        </div>
+        
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="text-center py-5 bg-primary">
+        <div class="container position-absolute top-50 start-50 translate-middle">
+            <img src="./assets/image/profile2.jpg" alt="Profile" class="profile-img">
+            <h2 class="fst-italic text-success-emphasis">i'm <span class="fw-bold text-white">Paul Fesama,</span> an IT Generalist</h2>
+            <button href="#skills" type="button" class="btn btn-light my-4" onclick="scrollToSkills()">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-body-secondary"> 
+        <h2 class="text-center my-5">Skills</h2>
+        <div class="row">
+            <!-- PC Maintenance Card -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <i class="bi bi-gear-fill"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">PC Maintenance</h5>
+                        <p class="card-text">I am an advanced PC maintenance technician with expertise in repairing and optimizing nearly all PC issues.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Social Media Management Card -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <i class="bi bi-people-fill"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Social Media Management</h5>
+                        <p class="card-text">I have experience growing followers and managing client accounts, enhancing online presence on social platforms.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- System Setup & Administration Card -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <i class="bi bi-person-fill-gear"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">System Setup & Administration</h5>
+                        <p class="card-text">In System Setup & Administration, I possess advanced skills and can seamlessly handle system setups and administrative tasks.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Troubleshooting & Diagnostics Card -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <i class="bi bi-motherboard"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Troubleshooting & Diagnostics</h5>
+                        <p class="card-text">In Troubleshooting & Diagnostics, I am confident in my ability to overcome any challenges in this field.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Networking Card -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <i class="bi bi-router-fill"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Networking</h5>
+                        <p class="card-text">I have intermediate networking skills, capable of understanding and implementing simple to medium-level network setups.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Web Development Card -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <i class="bi bi-file-earmark-code-fill"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Web Development</h5>
+                        <p class="card-text">I have intermediate web development skills, allowing me to quickly create basic single-page websites.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- About Section -->
+    <section id="about" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <p>I am an IT professional with expertise in PC maintenance, system setup & administration, troubleshooting & diagnostics, web development, networking, and social media management. I am eager to take on any role and expand my skill set.</p>
+            <h4 class="my-4">Contact Information</h4>
+            <ul class="list-unstyled">
+                <li><strong>Email:</strong> paulfesama@gmail.com.com</li>
+                <li><strong>Phone:</strong> (+675) 7495-6702</li>
+                <li><strong>LinkedIn:</strong> <a href="https://pg.linkedin.com/in/paul-fesama" target="_blank">My LinkedIn</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <p class="text-center text-white">&copy; 2025 Paul Fesama. All Rights Reserved.</p>
+    </footer>
+
+      <!-- Bootstrap JS, Popper.js, and jQuery -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- my-script -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

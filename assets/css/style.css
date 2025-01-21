@@ -1,0 +1,47 @@
+body {
+    padding-top: 20px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.1rem; 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #007bff; 
+    transition: color 0.3s ease;
+}
+
+#home {
+    height: 100vh
+}
+
+.card-deck {
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+i {
+    font-size: 2rem;  
+    color: #007bff;   
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar-toggler-icon {
+    background-color: #343a40;
+}
